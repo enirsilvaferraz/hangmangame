@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "69277234668",
+    "firebase_url": "https://hangmangame-18814.firebaseio.com",
+    "project_id": "hangmangame-18814",
+    "storage_bucket": "hangmangame-18814.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69277234668:android:9e2eb67256ad59b8",
+        "android_client_info": {
+          "package_name": "com.kotlinstudy.hangmangame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69277234668-pdc4t7eonlif9no7c4s35191tmublkgo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kotlinstudy.hangmangame",
+            "certificate_hash": "edf16c5ab8d9b937929947a53117b7b195ee09e2"
+          }
+        },
+        {
+          "client_id": "69277234668-68jhjco041t11fo6ud76tijcdu75kdrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvNz_uVJR0k-Us7QU1bkaYUya6MxuA6TI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69277234668-68jhjco041t11fo6ud76tijcdu75kdrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
