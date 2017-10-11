@@ -1,20 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.kotlinstudy.hangmangame.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/carter_one"
-        android:text="Hello World!"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="A _ G _ _ I _ A"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="150dp"/>
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A dica ficará aqui. tem bastante espaço pra colocar texto a vontade."/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Q"
+            android:fontFamily="@font/carter_one"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="W"
+            android:fontFamily="@font/carter_one"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="E"
+            android:fontFamily="@font/carter_one"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="R"
+            android:fontFamily="@font/carter_one"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="T"
+            android:fontFamily="@font/carter_one"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="Y"
+            android:fontFamily="@font/carter_one"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="U"
+            android:fontFamily="@font/carter_one"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="I"
+            android:fontFamily="@font/carter_one"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="O"
+            android:fontFamily="@font/carter_one"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="P"
+            android:fontFamily="@font/carter_one"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="A"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="S"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="D"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="F"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="G"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="A"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="S"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="D"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="F"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:text="G"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
